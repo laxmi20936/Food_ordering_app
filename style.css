@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    /* width: 100vw; */
+}
+
+.navigation{
+    background-color: black;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    height:70px;
+}
+.nav2{
+    display: flex;
+    list-style: none;
+    /* padding:8px 30px; */
+}
+.nav1{
+    color:whitesmoke
+}
+.nav-color{
+    margin:10px;
+    font-size:22px;
+    font-weight: bolder;
+    color:red;
+}
+
+.inner-nav{
+    padding:8px 10px;
+    color:black;
+    background-color: lightgray;
+    border-radius: 8px;
+    margin-right:6px;
+    /* color: ; */
+}
+h1{
+    color: green;
+}
+
+
+.card{
+    width: 100vw;
+    display:flex;
+    justify-content: space-between;
+}
+
+.card-child{
+    width: 300px;
+    /* border:3px solid red; */
+    /* width:350px; */
+    margin: 20px auto;
+    border-radius: 16px;
+    
+    background-color: lightgrey;
+    /* font-family:  */
+}
+
+.card_img{
+    width:100%;
+    height:150px;
+    object-fit: cover;
+    border-top-left-radius: 16px ;
+    border-top-right-radius: 16px;
+}
+
+.card_body{
+    padding:15px;
+}
+.btn{
+    padding:10px 25px;
+    color:white;
+    background-color: tomato;
+    border:none;
+    border-radius: 20px;
+    cursor:pointer;
+    font-size: 20px;
+
+}
+
+.help-btn{
+    padding:6px 10px;
+    color:white;
+    background-color: skyblue;
+    border:none;
+    border-radius: 80px;
+    cursor:pointer;
+    /* font-size: 25px; */
+    width: 80px;
+    position: fixed;
+    bottom:0;
+    right:0;
+    /* border:10px solid red; */
+    margin: 30px;
+}
+
+.offer{
+    width:350px;
+    text-align: center;
+    margin:auto;
+    background-color: lightgrey;
+    border-radius: 16px;
+    padding:10px;
+    position: sticky;
+    top: 0; 
+    
+}
+
+.card-header{
+    position: relative;
+}
+
+.card-header p{
+    position: absolute;
+    padding:5px 6px;
+    background-color: azure;
+    border-radius: 8px;
+    bottom:0;
+    margin: 18px;
+    color: red;
+}
+
+
+.describe{
+    font-size: 15px;
+}
